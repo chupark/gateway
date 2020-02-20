@@ -17,7 +17,6 @@ router.all('/*', async function(req, res, next) {
     console.log(req.query);
     console.log('================= body ============');
     //console.log(req);
-    console.log('===================================');
     //console.log(req.header('authorize'));
     */
    console.log(req.headers);
